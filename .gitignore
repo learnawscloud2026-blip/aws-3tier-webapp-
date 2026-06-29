@@ -1,0 +1,26 @@
+# Local .terraform directories (contains provider plugins and modules)
+**/.terraform/*
+
+# .tfstate files (contains sensitive infrastructure state)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (likely to contain sensitive data/secrets)
+*.tfvars
+*.tfvars.json
+
+# Override override.tf and override.tf.json (.tf.override is an alternative pattern)
+_override.tf
+_override.tf.json
+*.override.tf
+*.override.tf.json
+
+# Include override files you *do* want to track (optional example)
+# !example_override.tf
+
+# Include micro-architecture cache
+.terraform.lock.hcl
